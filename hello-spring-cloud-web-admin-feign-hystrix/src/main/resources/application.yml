@@ -1,0 +1,27 @@
+spring:
+#  application:
+#    name: hello-spring-cloud-web-admin-feign-hystrix
+#  thymeleaf:
+#    cache: false
+#    mode: LEGACYHTML5
+#    encoding: UTF-8
+#    servlet:
+#      content-type: text/html
+  cloud:
+    config:
+      uri: http://localhost:8888
+      name: hello-spring-cloud-web-admin-feign-hystrix
+      label: master
+      profile: prod
+
+#server:
+#  port: 9201
+#
+#feign:
+#  hystrix:
+#    enabled: true
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8000/eureka/
